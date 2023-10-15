@@ -1,0 +1,866 @@
+.surfboard-rental-container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.surfboard-rental-top-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: linear-gradient(270deg, rgba(189, 195, 199, 0) 0.00%,rgba(0, 0, 0, 0.3) 99.00%),url("https://images.unsplash.com/photo-1455729552865-3658a5d39692?ixid=M3w5MTMyMXwwfDF8c2VhcmNofDEyMnx8c3VyZmJvYXJkfGVufDB8fHx8MTY5NjY4MDE5M3ww&ixlib=rb-4.0.3&w=1500");
+  background-position: center,top;
+}
+.surfboard-rental-navbar {
+  width: 100%;
+  display: flex;
+  max-width: auto;
+  align-items: center;
+  padding-top: var(--dl-space-space-doubleunit);
+  padding-left: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  padding-bottom: var(--dl-space-space-doubleunit);
+  justify-content: space-between;
+  background-image: linear-gradient(0deg, rgba(189, 195, 199, 0) 0.00%,rgb(44, 62, 80) 100.00%);
+}
+.surfboard-rental-navlink {
+  display: contents;
+}
+.surfboard-rental-logo {
+  color: var(--dl-color-gray-white);
+  padding-left: var(--dl-space-space-quadruple);
+  text-decoration: none;
+}
+.surfboard-rental-text {
+  font-style: normal;
+  font-weight: 300;
+}
+.surfboard-rental-text02 {
+  color: var(--dl-color-primary-sunsetorange);
+}
+.surfboard-rental-logo1 {
+  color: var(--dl-color-gray-white);
+  display: none;
+  padding-left: var(--dl-space-space-quadruple);
+}
+.surfboard-rental-right-side {
+  display: flex;
+  align-items: center;
+  padding-right: var(--dl-space-space-quadruple);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.surfboard-rental-links-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.surfboard-rental-home {
+  color: var(--dl-color-gray-white);
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.surfboard-rental-taxi {
+  color: var(--dl-color-gray-white);
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.surfboard-rental-taxi:hover {
+  color: var(--dl-color-primary-topaz);
+}
+.surfboard-rental-taxi1 {
+  color: var(--dl-color-primary-topaz);
+  margin-right: var(--dl-space-space-doubleunit);
+  text-decoration: none;
+}
+.surfboard-rental-about {
+  color: var(--dl-color-gray-white);
+  margin-right: var(--dl-space-space-doubleunit);
+}
+.surfboard-rental-burger-menu {
+  display: none;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.surfboard-rental-burger-menu {
+  width: 24px;
+  height: 24px;
+}
+.surfboard-rental-mobile-menu {
+  top: 0px;
+  flex: 0 0 auto;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: none;
+  padding: var(--dl-space-space-doubleunit);
+  z-index: 100;
+  position: absolute;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #fff;
+}
+.surfboard-rental-nav {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.surfboard-rental-top {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: row;
+  justify-content: space-between;
+}
+.surfboard-rental-close-menu {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.surfboard-rental-icon03 {
+  width: 24px;
+  height: 24px;
+}
+.surfboard-rental-right-side1 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.surfboard-rental-links-container1 {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 16px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.surfboard-rental-navlink1 {
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+.surfboard-rental-navlink2 {
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+.surfboard-rental-navlink3 {
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+.surfboard-rental-text06 {
+  text-decoration: none;
+}
+.surfboard-rental-follow-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.surfboard-rental-text07 {
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.surfboard-rental-icons-container {
+  width: 100px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.surfboard-rental-link {
+  display: contents;
+}
+.surfboard-rental-icon05 {
+  width: 24px;
+  height: 24px;
+}
+.surfboard-rental-link1 {
+  display: contents;
+}
+.surfboard-rental-icon07 {
+  width: 24px;
+  height: 24px;
+}
+.surfboard-rental-link2 {
+  display: contents;
+}
+.surfboard-rental-icon09 {
+  width: 24px;
+  height: 24px;
+}
+.surfboard-rental-container01 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 700px;
+  display: flex;
+  align-items: center;
+  padding-top: var(--dl-space-space-quadruple);
+  padding-left: var(--dl-space-space-quadruple);
+  padding-right: var(--dl-space-space-quadruple);
+  padding-bottom: var(--dl-space-space-quadruple);
+  justify-content: center;
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+}
+.surfboard-rental-container02 {
+  flex: 0 0 auto;
+  width: 70%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+}
+.surfboard-rental-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+}
+.surfboard-rental-container04 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.surfboard-rental-text08 {
+  color: var(--dl-color-gray-white);
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.surfboard-rental-text09 {
+  color: var(--dl-color-gray-white);
+  margin-left: var(--dl-space-space-doubleunit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+}
+.surfboard-rental-text10 {
+  font-weight: 700;
+}
+.surfboard-rental-text11 {
+  font-style: normal;
+  font-weight: 400;
+}
+.surfboard-rental-text17 {
+  font-weight: 700;
+}
+.surfboard-rental-booking-widget {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-700);
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+}
+.surfboard-rental-container05 {
+  width: auto;
+  height: 550px;
+}
+.surfboard-rental-container06 {
+  display: contents;
+}
+.surfboard-rental-container07 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 700px;
+  display: none;
+  align-items: center;
+  padding-top: var(--dl-space-space-quadruple);
+  padding-left: var(--dl-space-space-quadruple);
+  padding-right: var(--dl-space-space-quadruple);
+  padding-bottom: var(--dl-space-space-quadruple);
+  justify-content: center;
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+}
+.surfboard-rental-container08 {
+  flex: 0 0 auto;
+  width: 70%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+}
+.surfboard-rental-container09 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+}
+.surfboard-rental-container10 {
+  flex: 0 0 auto;
+  width: 50%;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.surfboard-rental-text20 {
+  color: var(--dl-color-gray-white);
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  margin-bottom: var(--dl-space-space-halfunit);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 1px;
+}
+.surfboard-rental-text21 {
+  color: var(--dl-color-gray-white);
+  margin-left: var(--dl-space-space-doubleunit);
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  padding-bottom: var(--dl-space-space-halfunit);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 2px;
+}
+.surfboard-rental-text22 {
+  font-weight: 700;
+}
+.surfboard-rental-text23 {
+  font-style: normal;
+  font-weight: 400;
+}
+.surfboard-rental-text29 {
+  font-weight: 700;
+}
+.surfboard-rental-booking-widget1 {
+  flex: 0 0 auto;
+  width: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-left: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-700);
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+}
+.surfboard-rental-container11 {
+  width: auto;
+  height: 550px;
+}
+.surfboard-rental-container12 {
+  display: contents;
+}
+.surfboard-rental-container13 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-doubleunit);
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.surfboard-rental-hero {
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: auto;
+  align-items: center;
+  padding-left: 0px;
+  padding-right: 0px;
+  flex-direction: column;
+  justify-content: flex-start;
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+}
+.surfboard-rental-container14 {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  border-radius: var(--dl-radius-radius-radius4);
+  justify-content: center;
+  background-color: var(--dl-color-gray-white);
+  border-top-left-radius: var(--dl-radius-radius-radius8);
+  border-top-right-radius: var(--dl-radius-radius-radius8);
+}
+.surfboard-rental-container15 {
+  flex: 0 0 auto;
+  width: 70%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-halfunit);
+  align-items: flex-start;
+  margin-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  background-color: var(--dl-color-gray-white);
+}
+.surfboard-rental-steps {
+  width: 80%;
+  display: flex;
+  padding: 48px;
+  max-width: 1400px;
+  align-self: center;
+  align-items: center;
+  flex-direction: column;
+}
+.surfboard-rental-container16 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.surfboard-rental-container17 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.surfboard-rental-step {
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  flex-direction: column;
+}
+.surfboard-rental-icon11 {
+  fill: var(--dl-color-primary-topaz);
+  width: 4rem;
+  height: 4rem;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.surfboard-rental-text32 {
+  font-size: 1.15rem;
+  font-weight: 500;
+}
+.surfboard-rental-text33 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-top: 24px;
+  text-align: center;
+}
+.surfboard-rental-step1 {
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  flex-direction: column;
+}
+.surfboard-rental-icon13 {
+  fill: var(--dl-color-primary-topaz);
+  width: 4em;
+  height: 4em;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.surfboard-rental-text36 {
+  font-size: 1.15rem;
+  text-align: center;
+  font-weight: 500;
+}
+.surfboard-rental-text37 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-top: 24px;
+  text-align: center;
+}
+.surfboard-rental-container18 {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.surfboard-rental-step2 {
+  display: flex;
+  padding: 24px;
+  align-items: center;
+  flex-direction: column;
+}
+.surfboard-rental-icon15 {
+  fill: var(--dl-color-primary-topaz);
+  width: 4em;
+  height: 4em;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.surfboard-rental-text40 {
+  font-size: 1.15rem;
+  text-align: center;
+  font-weight: 500;
+}
+.surfboard-rental-text41 {
+  color: var(--dl-color-gray-500);
+  font-size: 0.75rem;
+  margin-top: 24px;
+  text-align: center;
+}
+.surfboard-rental-text44 {
+  width: 80%;
+  align-self: center;
+  text-align: justify;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+}
+.surfboard-rental-container19 {
+  flex: 0 0 auto;
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 8em;
+  padding-right: 8em;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.surfboard-rental-text64 {
+  align-self: flex-start;
+  padding-top: var(--dl-space-space-unit);
+  border-color: var(--dl-color-gray-700);
+  border-style: inset;
+  border-width: 1px;
+  margin-bottom: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 3px;
+}
+.surfboard-rental-container20 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  padding-left: var(--dl-space-space-unit);
+  margin-bottom: var(--dl-space-space-doubleunit);
+  padding-right: var(--dl-space-space-unit);
+  justify-content: space-between;
+}
+.surfboard-rental-blog-post-card {
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: 1400px;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.surfboard-rental-blog-post-card:hover {
+  transform: scale(1.02);
+}
+.surfboard-rental-image {
+  width: 100%;
+  height: 300px;
+  max-height: 50rem;
+  object-fit: cover;
+  border-radius: 0px;
+}
+.surfboard-rental-container21 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.surfboard-rental-text65 {
+  color: var(--dl-color-gray-500);
+  font-size: 1.5rem;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.surfboard-rental-text66 {
+  font-size: 1rem;
+  align-self: center;
+  text-align: justify;
+  font-weight: 300;
+}
+.surfboard-rental-navlink4 {
+  margin-top: var(--dl-space-space-unit);
+  transition: 0.3s;
+  border-color: var(--dl-color-primary-sunsetorange);
+  text-decoration: none;
+}
+.surfboard-rental-navlink4:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-primary-sunsetorange);
+}
+.surfboard-rental-blog-post-card1 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: 1400px;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.surfboard-rental-blog-post-card1:hover {
+  transform: scale(1.02);
+}
+.surfboard-rental-image1 {
+  width: 100%;
+  height: 300px;
+  max-height: 50rem;
+  object-fit: cover;
+  border-radius: 0px;
+}
+.surfboard-rental-container22 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.surfboard-rental-text67 {
+  color: var(--dl-color-gray-500);
+  font-size: 1.5rem;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.surfboard-rental-text68 {
+  font-size: 1rem;
+  align-self: center;
+  text-align: justify;
+  font-weight: 300;
+}
+.surfboard-rental-navlink5 {
+  margin-top: var(--dl-space-space-unit);
+  transition: 0.3s;
+  border-color: var(--dl-color-primary-sunsetorange);
+  text-decoration: none;
+}
+.surfboard-rental-navlink5:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-primary-sunsetorange);
+}
+.surfboard-rental-blog-post-card2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  max-width: 1400px;
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  margin-left: var(--dl-space-space-halfunit);
+  margin-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  justify-content: space-between;
+}
+.surfboard-rental-blog-post-card2:hover {
+  transform: scale(1.02);
+}
+.surfboard-rental-image2 {
+  width: 100%;
+  height: 300px;
+  max-height: 50rem;
+  object-fit: cover;
+  border-radius: 0px;
+}
+.surfboard-rental-container23 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--dl-color-gray-white);
+}
+.surfboard-rental-text69 {
+  color: var(--dl-color-gray-500);
+  font-size: 1.5rem;
+  margin-top: var(--dl-space-space-unit);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.surfboard-rental-text70 {
+  font-size: 1rem;
+  align-self: center;
+  text-align: justify;
+  font-weight: 300;
+}
+.surfboard-rental-navlink6 {
+  margin-top: var(--dl-space-space-unit);
+  transition: 0.3s;
+  border-color: var(--dl-color-primary-sunsetorange);
+  text-decoration: none;
+}
+.surfboard-rental-navlink6:hover {
+  color: var(--dl-color-gray-white);
+  background-color: var(--dl-color-primary-sunsetorange);
+}
+@media(max-width: 991px) {
+  .surfboard-rental-logo {
+    display: none;
+  }
+  .surfboard-rental-hero {
+    padding-left: var(--dl-space-space-tripleunit);
+    padding-right: var(--dl-space-space-tripleunit);
+  }
+  .surfboard-rental-text32 {
+    text-align: center;
+  }
+  .surfboard-rental-text36 {
+    text-align: center;
+  }
+  .surfboard-rental-text40 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .surfboard-rental-logo1 {
+    display: none;
+  }
+  .surfboard-rental-right-side {
+    display: none;
+  }
+  .surfboard-rental-burger-menu {
+    display: flex;
+  }
+  .surfboard-rental-hero {
+    justify-content: center;
+  }
+  .surfboard-rental-steps {
+    padding-left: 32px;
+    padding-right: 32px;
+  }
+  .surfboard-rental-container16 {
+    flex-direction: column;
+  }
+  .surfboard-rental-step {
+    padding: var(--dl-space-space-unit);
+  }
+  .surfboard-rental-step1 {
+    padding: var(--dl-space-space-unit);
+  }
+  .surfboard-rental-step2 {
+    padding: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 479px) {
+  .surfboard-rental-top-container {
+    background-position: center;
+  }
+  .surfboard-rental-logo {
+    display: none;
+  }
+  .surfboard-rental-logo1 {
+    color: var(--dl-color-gray-white);
+    display: flex;
+    padding-left: 0px;
+  }
+  .surfboard-rental-text03 {
+    font-style: normal;
+    font-weight: 300;
+  }
+  .surfboard-rental-text05 {
+    color: var(--dl-color-primary-sunsetorange);
+  }
+  .surfboard-rental-mobile-menu {
+    display: none;
+  }
+  .surfboard-rental-navlink3 {
+    color: var(--dl-color-primary-sunsetorange);
+    text-decoration: none;
+  }
+  .surfboard-rental-container01 {
+    display: none;
+  }
+  .surfboard-rental-container07 {
+    height: 1000px;
+    display: flex;
+    padding: var(--dl-space-space-doubleunit);
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .surfboard-rental-container08 {
+    width: 100%;
+    align-items: center;
+    margin-right: 0px;
+  }
+  .surfboard-rental-container10 {
+    width: 100%;
+    align-items: center;
+  }
+  .surfboard-rental-text20 {
+    align-self: center;
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+  .surfboard-rental-booking-widget1 {
+    margin-left: 0px;
+  }
+  .surfboard-rental-container11 {
+    height: 600px;
+  }
+  .surfboard-rental-container14 {
+    flex-direction: column;
+  }
+  .surfboard-rental-container15 {
+    width: 100%;
+    align-items: center;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .surfboard-rental-steps {
+    padding-top: 32px;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: 32px;
+  }
+  .surfboard-rental-container17 {
+    flex-direction: column;
+  }
+  .surfboard-rental-container18 {
+    flex-direction: column;
+  }
+  .surfboard-rental-text44 {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .surfboard-rental-container19 {
+    width: 100%;
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .surfboard-rental-container20 {
+    flex-direction: column;
+  }
+  .surfboard-rental-container22 {
+    padding-bottom: 1em;
+  }
+}
